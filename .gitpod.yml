@@ -1,9 +1,4 @@
-image: gitpod/workspace-full
 
-tasks:
-  - init: npm install
-    command: npm start
-
-ports:
-  - port: 3000
-    onOpen: open-preview
+vscode:
+  extensions:
+    - 42Crunch.vscode-openapi
